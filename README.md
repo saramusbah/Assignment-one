@@ -31,9 +31,11 @@ of class requirements.)
 
 
 5.
-//#include <iostream>
+```cpp
 
-//#include <cstring>
+#include <iostream>
+
+#include <cstring>
 
 using namespace std ; 
 
@@ -59,8 +61,9 @@ void deposit(double cash);
 
 void withdraw(double cash);
 
-};
+}; 
 
+```cpp  
 
 
 6. A class constructor is called when you create an object of that class or when you
@@ -69,7 +72,7 @@ explicitly call the constructor.A class destructor is called when the object exp
 
 
 
-7. 
+7.
  BankAccount::BankAccount(const string & client, const string & num, double bal)
 
 {
@@ -95,11 +98,13 @@ declare arrays.
 
 9.
 
-//#include<iostream>
+```cpp
 
-//#ifndef STOCK30_H_
+#include<iostream>
 
-//#define STOCK30_H_
+#ifndef STOCK30_H_
+
+#define STOCK30_H_
 
 using namespace std ;
 
@@ -145,7 +150,9 @@ double totalval() const { return total_val; }
 
 const string & co_name() const { return company; }
 
-};
+}; 
+
+```cpp 
 
 
 10. The this pointer is available to class methods. It points to the object used to
