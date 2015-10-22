@@ -31,9 +31,9 @@ of class requirements.)
 
 
 5.
-#include <iostream>
+//#include <iostream>
 
-#include <cstring>
+//#include <cstring>
 
 using namespace std ; 
 
@@ -69,9 +69,8 @@ explicitly call the constructor.A class destructor is called when the object exp
 
 
 
-7.
-
-BankAccount::BankAccount(const string & client, const string & num, double bal)
+7. 
+ BankAccount::BankAccount(const string & client, const string & num, double bal)
 
 {
 
@@ -96,11 +95,11 @@ declare arrays.
 
 9.
 
-#include <iostream>
+//#include<iostream>
 
-#ifndef STOCK30_H_
+//#ifndef STOCK30_H_
 
-#define STOCK30_H_
+//#define STOCK30_H_
 
 using namespace std ;
 
