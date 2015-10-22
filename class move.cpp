@@ -31,7 +31,6 @@ int main()
 	Move x, y;
 	x.showmove();
 	y.showmove();
-	x.add(5);
-	y.add(3);
+	
 	return 0;
 }
