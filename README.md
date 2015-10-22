@@ -63,7 +63,7 @@ void withdraw(double cash);
 
 }; 
 
-```cpp  
+```text 
 
 
 6. A class constructor is called when you create an object of that class or when you
@@ -72,7 +72,7 @@ explicitly call the constructor.A class destructor is called when the object exp
 
 
 
-7.
+7.  
  BankAccount::BankAccount(const string & client, const string & num, double bal)
 
 {
@@ -152,7 +152,7 @@ const string & co_name() const { return company; }
 
 }; 
 
-```cpp 
+```text
 
 
 10. The this pointer is available to class methods. It points to the object used to
